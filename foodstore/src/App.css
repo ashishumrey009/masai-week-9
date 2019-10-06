@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; 
+}
+.searchArea{
+  margin-top: 110px;
+  border: 1px solid black;
+  background: url("./img/search.svg");
+  background-repeat: no-repeat;
+  min-height: 500px;
+  
+  position: relative;
+}  
+.imgProp{
+  border:border 2px solid  red;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.infoHeader {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+  
+  .orderText{
+    margin-top: 90px;
+  }
+  .sucessPage{
+    margin-top:190px;
+  }
